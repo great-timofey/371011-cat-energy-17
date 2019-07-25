@@ -1,0 +1,24 @@
+.page-footer {
+  background-color: $white-two;
+}
+
+.page-footer__copyright {
+  a {
+    text-decoration: none;
+    color: $grey;
+  }
+
+  svg {
+    fill: $grey;
+  }
+
+  &:hover {
+    a {
+      color: $black;
+    }
+
+    svg {
+      fill: $black;
+    }
+  }
+}

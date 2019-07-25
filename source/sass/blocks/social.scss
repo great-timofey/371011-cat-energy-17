@@ -1,0 +1,38 @@
+.social__list {
+  @include list-reset();
+}
+
+.social__item {
+  svg {
+    fill: $black;
+  }
+
+  &:hover {
+    svg {
+      fill: $leaf;
+    }
+  }
+
+  &:active {
+    svg {
+      opacity: 0.3;
+    }
+  }
+}
+
+.social__link {
+  font-size: 0;
+
+
+  &--vkontakte {
+    background-image: url("../img/icon-vk.svg");
+  }
+
+  &--instagram {
+    background-image: url("../img/icon-insta.svg");
+  }
+
+  &--facebook {
+    background-image: url("../img/icon-fb.svg");
+  }
+}

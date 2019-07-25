@@ -1,0 +1,32 @@
+.cover {
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cover__header {
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  color: $white;
+}
+
+.cover__text {
+  font-size: 14px;
+  text-align: center;
+  color: $white;
+}
+
+.cover__image {
+  width: 280px;
+  height: 270px;
+}
+
+.cover__button {
+  width: 280px;
+  height: 40px;
+  background-color: $leaf;
+  text-decoration: none;
+  color: $white;
+  font-size: 14px;
+}
