@@ -1,0 +1,14 @@
+.catalog__wrapper {
+  width: 320px;
+}
+
+.catalog__list {
+  @include list-reset();
+}
+
+.catalog__title {
+  font-family: "Oswald Regular";
+  font-size: 36px;
+  line-height: 1.67;
+  color: $black;
+}

@@ -1,0 +1,33 @@
+.products__item {
+  padding: 25px 20px;
+  border: 1px solid $grey-light;
+}
+
+.products__image {
+  width: 140px;
+  height: 144px;
+  float: left;
+}
+
+.products__title {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: "Oswald Regular";
+  font-size: 16px;
+  line-height: 1.25;
+  color: $black;
+}
+
+.products__field, .products__value {
+  font-family: "Arial";
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: left;
+  color: $greyish-brown;
+}
+
+.products__order-link {
+  font-size: 16px;
+  width: 100%;
+}

@@ -1,20 +1,28 @@
-.cover {
+.cover__wrapper {
+  width: 320px;
+  padding: 30px 20px 0;
   background-image: url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .cover__header {
+  margin: 0;
+  padding: 0;
   font-size: 36px;
   font-weight: normal;
   text-align: center;
   color: $white;
+  font-family: "Oswald Regular";
+  font-size: 36px;
+  text-align: center;
 }
 
 .cover__text {
   font-size: 14px;
   text-align: center;
   color: $white;
+  text-transform: uppercase;
 }
 
 .cover__image {
@@ -23,10 +31,13 @@
 }
 
 .cover__button {
-  width: 280px;
-  height: 40px;
-  background-color: $leaf;
-  text-decoration: none;
-  color: $white;
   font-size: 14px;
+  height: 40px;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

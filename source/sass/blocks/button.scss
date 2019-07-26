@@ -1,0 +1,18 @@
+.button {
+  border: none;
+  text-transform: uppercase;
+  display: block;
+  font-family: "Oswald Regular";
+  line-height: 1.25;
+  text-align: center;
+
+  &--primary {
+    color: $white;
+    background-color: $leaf;
+  }
+
+  &--secondary {
+    color: $greyish-brown;
+    background-color: $white-two;
+  }
+}

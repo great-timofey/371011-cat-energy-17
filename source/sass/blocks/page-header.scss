@@ -1,6 +1,11 @@
 .page-header {
+  width: 320px;
+  height: 65px;
   background-color: white;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid $grey-light;
 }
 
 .page-header__logo-image {

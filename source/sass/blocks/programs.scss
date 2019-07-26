@@ -1,26 +1,4 @@
-.programs-catalog {
-  @include list-reset();
-}
-
-.programs-catalog__title {
-  font-size: 24px;
-  line-height: 1.54;
-  letter-spacing: normal;
-  color: $black;
-  text-transform: uppercase;
-}
-
-.programs-catalog__description {
-  font-family: "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 1.29;
-  color: $greyish-brown;
-}
-
-.programs-catalog__link {
-  font-size: 16px;
-  text-align: left;
-  color: $black;
-  text-decoration: none;
-  text-transform: uppercase;
+.programs__wrapper {
+  width: 320px;
+  padding: 20px 20px 0;
 }

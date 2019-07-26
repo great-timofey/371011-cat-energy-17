@@ -1,5 +1,8 @@
 .social__list {
   @include list-reset();
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .social__item {
@@ -22,7 +25,6 @@
 
 .social__link {
   font-size: 0;
-
 
   &--vkontakte {
     background-image: url("../img/icon-vk.svg");

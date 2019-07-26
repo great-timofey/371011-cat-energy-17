@@ -1,0 +1,25 @@
+.show-more {
+  padding: 25px 20px;
+  border: 1px solid $grey-light;
+}
+
+.show-more__title {
+  font-family: "Oswald Regular";
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.show-more__slogan {
+  font-family: "Arial";
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  color: $greyish-brown;
+}
+
+.show-more__button {
+  width: 100%;
+}

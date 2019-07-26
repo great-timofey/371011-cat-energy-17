@@ -7,23 +7,3 @@
   @include list-reset();
 }
 
-.site-list__item a {
-  color: black;
-  text-decoration: none;
-}
-
-.main-nav__toggle {
-  position: relative;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 30px;
-    height: 3px;
-    color: white;
-    border-bottom: 5px solid black;
-    box-shadow: 0 10px 0 black, 0 20px 0 black;
-  }
-}
