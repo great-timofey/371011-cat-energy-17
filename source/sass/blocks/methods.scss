@@ -13,31 +13,35 @@
     height: 60px;
     top: 0;
     left: 0;
-    background-size: contain;
+    background-position: center center;
     background-repeat: no-repeat;
     background-color: $leaf;
   }
 
   &--materials {
     &::before {
+      background-size: 45px 47px;
       background-image: url("../img/advantage-leaf@1x.png");
     }
   }
 
   &--powder {
     &::before {
+      background-size: 47px 46px;
       background-image: url("../img/advantage-powder@1x.png");
     }
   }
 
   &--meal {
     &::before {
+      background-size: 43px 45px;
       background-image: url("../img/advantage-dining@1x.png");
     }
   }
 
   &--changes {
     &::before {
+      background-size: 51px 54px;
       background-image: url("../img/advantage-clock@1x.png");
     }
   }
