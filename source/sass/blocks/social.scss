@@ -5,7 +5,9 @@
   justify-content: space-between;
 }
 
-.social__item {
+.social__link {
+  font-size: 0;
+
   svg {
     fill: $black;
   }
@@ -21,10 +23,6 @@
       opacity: 0.3;
     }
   }
-}
-
-.social__link {
-  font-size: 0;
 
   &--vkontakte {
     background-image: url("../img/icon-vk.svg");

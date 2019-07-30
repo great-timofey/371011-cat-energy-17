@@ -9,11 +9,14 @@
 
 .main-nav__toggle {
   position: relative;
+  border: none;
+  width: 30px;
+  height: 20px;
 
   &::before {
     content: "";
     position: absolute;
-    top: -10px;
+    top: 0;
     right: 0;
     width: 30px;
     height: 3px;

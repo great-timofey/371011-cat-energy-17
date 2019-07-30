@@ -1,0 +1,28 @@
+.copyright {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+
+  svg {
+    fill: $grey;
+  }
+
+  &:hover {
+    svg {
+      fill: $black;
+    }
+  }
+}
+
+.copyright__link {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: $greyish-brown;
+  text-decoration: none;
+
+  &:hover {
+    color: $black;
+  }
+}
