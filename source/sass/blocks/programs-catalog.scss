@@ -19,7 +19,8 @@
   text-align: center;
   color: $black;
   text-transform: uppercase;
-  font-family: "Oswald Regular", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 24px;
   line-height: 1.54;
 
@@ -67,6 +68,7 @@
 
 .programs-catalog__description {
   font-family: "Arial", sans-serif;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.29;
   color: $greyish-brown;
@@ -82,7 +84,8 @@
   color: $black;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Oswald Regular", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
 
   &::after {
     content: "";
